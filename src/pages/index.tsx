@@ -6,7 +6,7 @@ const Home: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Homepage</title>
+        <title>cfchenr - CV</title>
       </Head>
       <Interface color="ffb74d" company="World" />
     </>

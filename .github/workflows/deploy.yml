@@ -26,17 +26,4 @@ jobs:
       - run: yarn install
 
       - name: Build project
-        run: yarn build
-
-      - run: yarn export
-
-      - run: touch ./out/.nojekyll
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          user_name: 'cfchenr'
-          user_email: 'c.henriques@ua.pt'
-          personal_token: ${{ secrets.LOGIN_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./out
+      - run: rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out -t true"
