@@ -1,0 +1,63 @@
+const academic = [{
+    "name": "name1",
+    "rating": 0
+}, {
+    "name": "name2",
+    "rating": 0
+}, {
+    "name": "name3",
+    "rating": 0
+}, {
+    "name": "name4",
+    "rating": 0
+}, {
+    "name": "name5",
+    "rating": 0
+}, {
+    "name": "name6",
+    "rating": 0
+}, {
+    "name": "name7",
+    "rating": 0
+}, {
+    "name": "name8",
+    "rating": 0
+}, {
+    "name": "name9",
+    "rating": 0
+}, {
+    "name": "name10",
+    "rating": 0
+}, {
+    "name": "name1",
+    "rating": 0
+}, {
+    "name": "name2",
+    "rating": 0
+}, {
+    "name": "name3",
+    "rating": 0
+}, {
+    "name": "name4",
+    "rating": 0
+}, {
+    "name": "name5",
+    "rating": 0
+}, {
+    "name": "name6",
+    "rating": 0
+}, {
+    "name": "name7",
+    "rating": 0
+}, {
+    "name": "name8",
+    "rating": 0
+}, {
+    "name": "name9",
+    "rating": 0
+}, {
+    "name": "name10",
+    "rating": 0
+}]
+
+export default academic
