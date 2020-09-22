@@ -1,19 +1,40 @@
 import React from 'react'
 
-import Rating from '@material-ui/lab/Rating'
 import Typography from '@material-ui/core/Typography'
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles'
-import Grid from '@material-ui/core/Grid'
 import softSkills from '../assets/softSkills'
+import Grid from '@material-ui/core/Grid'
 
-const useStyles = makeStyles((theme: Theme) =>
+import {
+  makeStyles,
+  createStyles,
+  withStyles,
+  Theme
+} from '@material-ui/core/styles'
+import LinearProgress from '@material-ui/core/LinearProgress'
+
+const BorderLinearProgress = withStyles((theme: Theme) =>
   createStyles({
     root: {
-      flexGrow: 1,
-      textAlign: 'center'
+      height: 10,
+      borderRadius: 5
+    },
+    colorPrimary: {
+      backgroundColor:
+        theme.palette.grey[theme.palette.type === 'light' ? 200 : 700]
+    },
+    bar: {
+      borderRadius: 5,
+      backgroundColor: theme.palette.primary.main
     }
   })
-)
+)(LinearProgress)
+
+const useStyles = makeStyles({
+  root: {
+    flexGrow: 1,
+    textAlign: 'center'
+  }
+})
 
 const splitIntoSubArray = (arr, count) => {
   var newArray = []
@@ -29,38 +50,37 @@ const SoftSkills: React.FC = () => {
   return (
     <div className="section">
       <h2>Soft Skills</h2>
-      <div className={classes.root}>
-        <Grid container spacing={5}>
-          {subArrays ? (
-            subArrays.map((element, i) => {
-              return (
-                <Grid item xs={12} sm={3} key={i}>
-                  {element ? (
-                    element.map((element2, i2) => {
-                      return (
-                        <div key={i2}>
+      <Grid container spacing={5}>
+        {subArrays ? (
+          subArrays.map((element, i) => {
+            return (
+              <Grid item xs={12} sm={6} key={i}>
+                {element ? (
+                  element.map((element2, i2) => {
+                    return (
+                      <div key={i2}>
+                        <div className={classes.root}>
                           <Typography component="legend">
                             {element2.name}
                           </Typography>
-                          <Rating
-                            name="read-only"
+                          <BorderLinearProgress
+                            variant="determinate"
                             value={element2.rating}
-                            readOnly
                           />
                         </div>
-                      )
-                    })
-                  ) : (
-                    <></>
-                  )}
-                </Grid>
-              )
-            })
-          ) : (
-            <></>
-          )}
-        </Grid>
-      </div>
+                      </div>
+                    )
+                  })
+                ) : (
+                  <></>
+                )}
+              </Grid>
+            )
+          })
+        ) : (
+          <></>
+        )}
+      </Grid>
     </div>
   )
 }

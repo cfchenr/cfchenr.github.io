@@ -1,63 +1,87 @@
 const academic = [{
-    "name": "name1",
-    "rating": 0
+    "name": "Java",
+    "rating": 60
 }, {
-    "name": "name2",
-    "rating": 0
+    "name": "Python",
+    "rating": 60
 }, {
-    "name": "name3",
-    "rating": 0
+    "name": "JavaScript",
+    "rating": 80
 }, {
-    "name": "name4",
-    "rating": 0
+    "name": "TypeScript",
+    "rating": 60
 }, {
-    "name": "name5",
-    "rating": 0
+    "name": "Groovy",
+    "rating": 80
 }, {
-    "name": "name6",
-    "rating": 0
+    "name": "ReactJS",
+    "rating": 60
 }, {
-    "name": "name7",
-    "rating": 0
+    "name": "NextJS",
+    "rating": 60
 }, {
-    "name": "name8",
-    "rating": 0
+    "name": "Django",
+    "rating": 60
 }, {
-    "name": "name9",
-    "rating": 0
+    "name": "Spock",
+    "rating": 60
 }, {
-    "name": "name10",
-    "rating": 0
+    "name": "JUnit",
+    "rating": 80
 }, {
-    "name": "name1",
-    "rating": 0
+    "name": "HTML",
+    "rating": 80
 }, {
-    "name": "name2",
-    "rating": 0
+    "name": "CSS",
+    "rating": 80
 }, {
-    "name": "name3",
-    "rating": 0
+    "name": "JSON",
+    "rating": 80
 }, {
-    "name": "name4",
-    "rating": 0
+    "name": "Bootstrap",
+    "rating": 80
 }, {
-    "name": "name5",
-    "rating": 0
+    "name": "MaterialUI",
+    "rating": 80
 }, {
-    "name": "name6",
-    "rating": 0
+    "name": "Git",
+    "rating": 80
 }, {
-    "name": "name7",
-    "rating": 0
+    "name": "CI/CD",
+    "rating": 60
 }, {
-    "name": "name8",
-    "rating": 0
+    "name": "Jenkins",
+    "rating": 60
 }, {
-    "name": "name9",
-    "rating": 0
+    "name": "Github Actions",
+    "rating": 80
 }, {
-    "name": "name10",
-    "rating": 0
+    "name": "Jira",
+    "rating": 80
+}, {
+    "name": "LaTeX",
+    "rating": 80
+}, {
+    "name": "UML",
+    "rating": 60
+}, {
+    "name": "OO",
+    "rating": 60
+}, {
+    "name": "Unit Tests",
+    "rating": 80
+}, {
+    "name": "SonarQube",
+    "rating": 80
+}, {
+    "name": "Grafana",
+    "rating": 80
+}, {
+    "name": "Kubernetes",
+    "rating": 60
+}, {
+    "name": "Docker",
+    "rating": 80
 }]
 
 export default academic
