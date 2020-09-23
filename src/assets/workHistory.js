@@ -5,7 +5,7 @@ const workHistory = [{
     "local": "Aveiro",
     "startDate": "August, 2020",
     "endDate": "current",
-    "tags": ["Jenkins", "JSON", "CI/CD", "UML", "JIRA", "Git", "Bootstrap", "CSS", "HTML", "Unit Tests", "Groovy", "Spock", "Kubernetes", "SonarQube", "Docker"]
+    "tags": ["Jenkins", "JSON", "CI/CD", "UML", "JIRA", "Git", "Bootstrap", "CSS", "HTML", "JUnit", "Groovy", "Spock", "Kubernetes", "SonarQube", "Docker", "NodeJS", "Bitbucket", "Grafana", "Confluence", "Fossid"]
 }, {
     "name": "Software Testing Maturity Model and the Future Using AI & ML",
     "job": "Curricular Internship",
@@ -13,7 +13,7 @@ const workHistory = [{
     "local": "Aveiro",
     "startDate": "August, 2019",
     "endDate": "August, 2020",
-    "tags": ["Jenkins", "JSON", "CI/CD", "UML", "JIRA", "Git", "Bootstrap", "CSS", "HTML", "Unit Tests", "Groovy", "Spock", "Kubernetes", "SonarQube", "Docker"]
+    "tags": ["Jenkins", "JSON", "CI/CD", "UML", "JIRA", "Git", "Bootstrap", "CSS", "HTML", "JUnit", "Groovy", "Spock", "Kubernetes", "SonarQube", "Docker", "NodeJS", "Bitbucket", "Grafana", "Confluence", "JFrog Artifactory"]
 }, {
     "name": "SIACUA: Web Development of Online Platform to Support the Study",
     "job": "Research Student",

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
   padding-top: 10%;
 
-  width: 100vw;
+  max-width: 100vw;
   /* height: 100vh; */
 
   display: flex;
@@ -33,8 +33,16 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    max-width: 100vh;
+    margin: 20px;
 
-    width: 100vh;
+    h2 {
+      margin-bottom: 50px;
+    }
+  }
+
+  .description {
+    text-align: center;
   }
 
   :root {

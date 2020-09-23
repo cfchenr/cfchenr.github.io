@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 
 export interface Props {
   color: string
-  company: string
+  world: string
 }
 
 import { ThemeProvider } from '@material-ui/styles'
@@ -15,8 +15,11 @@ import WorkHistory from './WorkHistory'
 import Academic from './Academic'
 import SoftSkills from './SoftSkills'
 import Languages from './Languages'
+import OtherExeperiences from './OtherExeperiences'
+import CarrerPath from './CarrerPath'
+import Grid from '@material-ui/core/Grid'
 
-const Interface: React.FC<Props> = ({ color, company }) => {
+const Interface: React.FC<Props> = ({ color, world }) => {
   const theme = createMuiTheme({
     palette: {
       primary: {
@@ -45,11 +48,19 @@ const Interface: React.FC<Props> = ({ color, company }) => {
   return (
     <ThemeProvider theme={theme}>
       <Container>
-        <HelloWorld companyName={company} />
-        <WorkHistory />
+        <HelloWorld world={world} />
+        <Grid container>
+          <Grid item xs={12} sm={6}>
+            <WorkHistory />
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <OtherExeperiences />
+          </Grid>
+        </Grid>
         <Academic />
         <SoftSkills />
         <Languages />
+        <CarrerPath />
         <Interests />
       </Container>
     </ThemeProvider>

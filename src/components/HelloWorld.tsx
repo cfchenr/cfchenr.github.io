@@ -12,7 +12,7 @@ import Avatar from '@material-ui/core/Avatar'
 import Typing from 'react-typing-animation'
 
 export interface Props {
-  companyName: string | string[]
+  world: string | string[]
 }
 const StyledBadge = withStyles((theme: Theme) =>
   createStyles({
@@ -51,7 +51,8 @@ const useStyles = makeStyles((theme: Theme) =>
       display: 'flex',
       '& > *': {
         margin: theme.spacing(1)
-      }
+      },
+      textAlign: 'center'
     },
     large: {
       width: theme.spacing(17),
@@ -60,9 +61,9 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 )
 
-const HelloWorld: React.FC<Props> = ({ companyName }) => {
+const HelloWorld: React.FC<Props> = ({ world }) => {
   const classes = useStyles()
-  return companyName ? (
+  return world ? (
     <div className="section">
       <div className={classes.root}>
         <StyledBadge
@@ -81,20 +82,22 @@ const HelloWorld: React.FC<Props> = ({ companyName }) => {
         </StyledBadge>
       </div>
       <Typing speed={50}>
-        <h1>&#60;Hello, {companyName}&#47;&#62;</h1>
+        <h1>&#60;Hello, {world}&#47;&#62;</h1>
       </Typing>{' '}
-      <p>
-        I'm <span>Cláudio</span> and i'm a software developer. I have a degree
-        in <span>Mathematic and Applications</span>.
-      </p>{' '}
-      <p>
-        My{' '}
-        <span>
-          <AiFillHeart />
-        </span>{' '}
-        have a crunch for <span>frontend</span> development but is in the{' '}
-        <span>backend</span> when i can do some <span>magic</span> with code.
-      </p>
+      <div className="description">
+        <p>
+          I'm <span>Cláudio</span> and i'm a software developer. I have a degree
+          in <span>Mathematic and Applications</span>.
+        </p>{' '}
+        <p>
+          My{' '}
+          <span>
+            <AiFillHeart />
+          </span>{' '}
+          have a crunch for <span>frontend</span> development but is in the{' '}
+          <span>backend</span> when i can do some <span>magic</span> with code.
+        </p>
+      </div>
     </div>
   ) : (
     <></>

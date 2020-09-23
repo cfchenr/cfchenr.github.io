@@ -8,7 +8,7 @@ import TimelineContent from '@material-ui/lab/TimelineContent'
 import TimelineDot from '@material-ui/lab/TimelineDot'
 import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent'
 import Typography from '@material-ui/core/Typography'
-import workHistory from '../assets/workHistory'
+import otherExeperiences from '../assets/otherExeperiences'
 import Chip from '@material-ui/core/Chip'
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles'
 
@@ -23,14 +23,14 @@ const useStyles = makeStyles((theme: Theme) =>
     }
   })
 )
-const WorkHistory: React.FC = () => {
+const OtherExeperiences: React.FC = () => {
   const classes = useStyles()
   return (
     <div className="section">
-      <h2>Work History</h2>
+      <h2>Other Exeperiences</h2>
       <Timeline align="alternate">
-        {workHistory ? (
-          workHistory.map((element, i) => {
+        {otherExeperiences ? (
+          otherExeperiences.map((element, i) => {
             return (
               <TimelineItem key={i}>
                 <TimelineOppositeContent>
@@ -91,4 +91,4 @@ const WorkHistory: React.FC = () => {
   )
 }
 
-export default WorkHistory
+export default OtherExeperiences

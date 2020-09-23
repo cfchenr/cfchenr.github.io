@@ -8,16 +8,16 @@ import TimelineContent from '@material-ui/lab/TimelineContent'
 import TimelineDot from '@material-ui/lab/TimelineDot'
 import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent'
 import Typography from '@material-ui/core/Typography'
-import academic from '../assets/academic'
+import carrerPath from '../assets/carrerPath'
 import { Today, LibraryBooks } from '@material-ui/icons'
 
-const Academic: React.FC = () => {
+const CarrerPath: React.FC = () => {
   return (
     <div className="section">
-      <h2>Academic</h2>
+      <h2>Carrer Path</h2>
       <Timeline align="alternate">
-        {academic ? (
-          academic.map((element, i) => {
+        {carrerPath ? (
+          carrerPath.map((element, i) => {
             return (
               <TimelineItem key={i}>
                 <TimelineOppositeContent>
@@ -25,6 +25,9 @@ const Academic: React.FC = () => {
                     <Today />
                     <span> </span>
                     {element.startDate} - {element.endDate}
+                  </Typography>
+                  <Typography variant="subtitle1">
+                    {element.description}
                   </Typography>
                 </TimelineOppositeContent>
                 <TimelineSeparator>
@@ -49,4 +52,4 @@ const Academic: React.FC = () => {
   )
 }
 
-export default Academic
+export default CarrerPath

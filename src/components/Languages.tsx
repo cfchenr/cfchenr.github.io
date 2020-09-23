@@ -11,29 +11,27 @@ import FormControl from '@material-ui/core/FormControl'
 import { makeStyles } from '@material-ui/core/styles'
 import Typography from '@material-ui/core/Typography'
 
+const useStyles = makeStyles({
+  root: {
+    flexGrow: 1,
+    textAlign: 'center'
+  },
+  disabled: {
+    color: '#fff !important'
+  }
+})
 const Languages: React.FC = () => {
-  const useStyles = makeStyles({
-    root: {
-      flexGrow: 1,
-      textAlign: 'center'
-    },
-    disabled: {
-      color: '#fff !important'
-    }
-  })
   const classes = useStyles()
 
   return (
     <div className="section">
       <h2>Languages</h2>
       <Grid container spacing={5}>
-        <Grid item xs={12} sm={3}></Grid>
-        <Grid item xs={12} sm={6}>
-          {languages ? (
-            languages.map((element, i) => {
-              return (
+        {languages ? (
+          languages.map((element, i) => {
+            return (
+              <Grid xs={12}>
                 <div key={i} className={classes.root}>
-                  <br />
                   <Typography component="legend">{element.name}</Typography>
                   <FormControl component="fieldset" key={i}>
                     <RadioGroup
@@ -72,12 +70,12 @@ const Languages: React.FC = () => {
                     </RadioGroup>
                   </FormControl>
                 </div>
-              )
-            })
-          ) : (
-            <></>
-          )}
-        </Grid>
+              </Grid>
+            )
+          })
+        ) : (
+          <></>
+        )}
       </Grid>
     </div>
   )

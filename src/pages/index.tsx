@@ -5,16 +5,16 @@ import Interface from '../components/Interface'
 
 const Home: React.FC = () => {
   const router = useRouter()
-  const { color, company } = router.query
+  const { color, world } = router.query
 
   return (
     <>
       <Head>
-        <title>cfchenr - {company ? company : 'CV'}</title>
+        <title>cfchenr - {world ? world : 'CV'}</title>
       </Head>
       <Interface
         color={color ? (color as string) : 'ffb74d'}
-        company={company ? (company as string) : 'World'}
+        world={world ? (world as string) : 'World'}
       />
     </>
   )

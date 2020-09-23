@@ -1,87 +1,90 @@
 const academic = [{
     "name": "Java",
-    "rating": 60
+    "rating": 3
 }, {
     "name": "Python",
-    "rating": 60
+    "rating": 3
 }, {
     "name": "JavaScript",
-    "rating": 80
+    "rating": 4
 }, {
     "name": "TypeScript",
-    "rating": 60
+    "rating": 3
 }, {
     "name": "Groovy",
-    "rating": 80
+    "rating": 4
 }, {
     "name": "ReactJS",
-    "rating": 60
+    "rating": 3
 }, {
     "name": "NextJS",
-    "rating": 60
+    "rating": 3
+}, {
+    "name": "NodeJS",
+    "rating": 4
 }, {
     "name": "Django",
-    "rating": 60
+    "rating": 3
 }, {
     "name": "Spock",
-    "rating": 60
+    "rating": 3
 }, {
     "name": "JUnit",
-    "rating": 80
+    "rating": 4
 }, {
     "name": "HTML",
-    "rating": 80
+    "rating": 4
 }, {
     "name": "CSS",
-    "rating": 80
+    "rating": 4
 }, {
     "name": "JSON",
-    "rating": 80
+    "rating": 4
 }, {
     "name": "Bootstrap",
-    "rating": 80
+    "rating": 4
 }, {
     "name": "MaterialUI",
-    "rating": 80
+    "rating": 4
 }, {
     "name": "Git",
-    "rating": 80
+    "rating": 4
 }, {
     "name": "CI/CD",
-    "rating": 60
+    "rating": 3
 }, {
     "name": "Jenkins",
-    "rating": 60
+    "rating": 3
 }, {
     "name": "Github Actions",
-    "rating": 80
+    "rating": 4
 }, {
     "name": "Jira",
-    "rating": 80
+    "rating": 4
 }, {
     "name": "LaTeX",
-    "rating": 80
+    "rating": 4
 }, {
     "name": "UML",
-    "rating": 60
+    "rating": 3
 }, {
     "name": "OO",
-    "rating": 60
+    "rating": 3
 }, {
     "name": "Unit Tests",
-    "rating": 80
+    "rating": 4
 }, {
     "name": "SonarQube",
-    "rating": 80
+    "rating": 4
 }, {
     "name": "Grafana",
-    "rating": 80
+    "rating": 4
 }, {
     "name": "Kubernetes",
-    "rating": 60
+    "rating": 3
 }, {
     "name": "Docker",
-    "rating": 80
+    "rating": 4
 }]
 
 export default academic
