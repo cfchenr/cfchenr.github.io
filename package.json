@@ -10,7 +10,7 @@
     "export": "next export",
     "gh-pages": "gh-pages -d out -t true",
     "rimraf": "./node_modules/rimraf/bin.js",
-    "deploy": "rm -rf node_modules/.cache && rimraf out && yarn build && yarn export && touch out/.nojekyll && gh-pages -d out -t true"
+    "deploy": "rm -rf node_modules/.cache && yarn rimraf out && yarn build && yarn export && touch out/.nojekyll && gh-pages -d out -t true"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
