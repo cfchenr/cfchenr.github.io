@@ -1,4 +1,11 @@
 const otherExeperiences = [{
+    "name": "Development of the system for registration and payment of registrations and member of local organizing committee",
+    "job": "Member of local organizing committee",
+    "company": "University of Aveiro",
+    "local": "Aveiro",
+    "startDate": "September, 2018",
+    "endDate": "August, 2019"
+},{
     "name": "Participation as a volunteer in the area of technical support in national science competitions, organized by pmate",
     "job": "Volunteer",
     "company": "University of Aveiro, pmate",
