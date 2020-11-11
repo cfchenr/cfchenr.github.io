@@ -13,7 +13,7 @@ import HelloWorld from './HelloWorld'
 import Interests from './Interests'
 import WorkHistory from './WorkHistory'
 import Academic from './Academic'
-import SoftSkills from './SoftSkills'
+import Skills from './Skills'
 import Languages from './Languages'
 import OtherExeperiences from './OtherExeperiences'
 import CarrerPath from './CarrerPath'
@@ -58,7 +58,7 @@ const Interface: React.FC<Props> = ({ color, world }) => {
           </Grid>
         </Grid>
         <Academic />
-        <SoftSkills />
+        <Skills />
         <Languages />
         <CarrerPath />
         <Interests />
