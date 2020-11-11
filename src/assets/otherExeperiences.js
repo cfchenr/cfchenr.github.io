@@ -6,6 +6,13 @@ const otherExeperiences = [{
     "startDate": "September, 2018",
     "endDate": "August, 2019"
 },{
+    "name": "ThinkTwice Hackathon (40h)",
+    "job": "Participant (5th place)",
+    "company": "University of Aveiro",
+    "local": "Aveiro",
+    "startDate": "March, 2019",
+    "endDate": "March, 2019"
+},{
     "name": "Participation as a volunteer in the area of technical support in national science competitions, organized by pmate",
     "job": "Volunteer",
     "company": "University of Aveiro, pmate",
