@@ -61,7 +61,7 @@ const Interface: React.FC<Props> = ({ color, world }) => {
         <Skills />
         <Languages />
         <CarrerPath />
-        <Interests />
+        // <Interests />
       </Container>
     </ThemeProvider>
   )
