@@ -1,5 +1,5 @@
 const otherExeperiences = [{
-    "name": "Development of the system for registration and payment of registrations and member of local organizing committee",
+    "name": "12th International ISAAC Congress: Development of the system for registration and payment of registrations and member of local organizing committee",
     "job": "Member of local organizing committee",
     "company": "University of Aveiro",
     "local": "Aveiro",
