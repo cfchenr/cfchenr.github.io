@@ -1,10 +1,18 @@
 const workHistory = [{
+    "name": "Java and Android (Kotlin)",
+    "job": "Fullstack Developer",
+    "company": "Bosch HOME",
+    "local": "Ovar",
+    "startDate": "February, 2021",
+    "endDate": "Current",
+    "tags": ["Jenkins", "JSON", "CI/CD", "UML", "JIRA", "Git", "JUnit", "Java", "Kotlin", "SonarQube", "Bitbucket", "Confluence", "Fossid"]
+}, {
     "name": "Open Source Software (OSS) License Compliance",
     "job": "Software Engineer",
     "company": "Bosch Thermotechnology",
     "local": "Aveiro",
     "startDate": "August, 2020",
-    "endDate": "current",
+    "endDate": "January, 2021",
     "tags": ["Jenkins", "JSON", "CI/CD", "UML", "JIRA", "Git", "Bootstrap", "CSS", "HTML", "JUnit", "Groovy", "Spock", "Kubernetes", "SonarQube", "Docker", "NodeJS", "Bitbucket", "Grafana", "Confluence", "Fossid", "REST", "Linux"]
 }, {
     "name": "Software Testing Maturity Model and the Future Using AI & ML",
