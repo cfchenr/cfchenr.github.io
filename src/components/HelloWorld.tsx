@@ -96,6 +96,9 @@ const HelloWorld: React.FC<Props> = ({ world }) => {
           </span>{' '}
           have a crunch for <span>frontend</span> development but is in the{' '}
           <span>backend</span> when i can do some <span>magic</span> with code.
+        </p>{' '}
+        <p>
+          I see myself as a staunch advocate of git on the command line and as an extreme enthusiast for CI/CD and all the automations we can create from there.
         </p>
       </div>
     </div>
