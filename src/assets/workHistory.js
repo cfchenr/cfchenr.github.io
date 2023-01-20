@@ -1,10 +1,18 @@
 const workHistory = [{
+    "name": "Software Engineer",
+    "job": "Fullstack Developer",
+    "company": "Sinmetro",
+    "local": "Leiria/Coimbra",
+    "startDate": "January, 2023",
+    "endDate": "Current",
+    "tags": ["Laravel", "PHP", "Nuxt"]
+}, {
     "name": "Java and Android (Kotlin)",
     "job": "Fullstack Developer",
     "company": "Bosch HOME",
     "local": "Ovar",
     "startDate": "February, 2021",
-    "endDate": "Current",
+    "endDate": "December, 2022",
     "tags": ["Jenkins", "JSON", "CI/CD", "UML", "JIRA", "Git", "JUnit", "Java", "Kotlin", "SonarQube", "Bitbucket", "Confluence", "Fossid"]
 }, {
     "name": "Open Source Software (OSS) License Compliance",
